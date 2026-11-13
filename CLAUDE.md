@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Git rules
+- Never push (`git push` or anything else that updates a remote) unless the user explicitly asks for it in the current request.
+- Never open, edit, comment on, merge or close pull requests (`gh pr ...` or the GitHub API), even if asked to push.
+
 ## Stack
 - React 19 + TypeScript (`.ts`/`.tsx` only, no plain JS), bundled with Vite. npm is the package manager. Linting uses oxlint (`.oxlintrc.json`).
 - Capacitor 8 wraps the Vite build (`dist/`) into the native Android project in `android/`. The app ID is `com.example.cantoninfo` (a placeholder), set in `capacitor.config.ts`.
