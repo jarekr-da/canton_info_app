@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Canton Info</string>
+    <string name="title_activity_main">Canton Info</string>
+    <string name="package_name">com.example.cantoninfo</string>
+    <string name="custom_url_scheme">com.example.cantoninfo</string>
+</resources>
